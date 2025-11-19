@@ -1,8 +1,8 @@
-🌍 World Explorer
+# World Explorer
 
 An interactive web application that allows users to explore countries, cities, routes, and points of interest using real-time geospatial APIs.
 
-📖 About the Project
+# About the Project
 
 World Explorer is a map-based travel and geography exploration system. It helps users discover global locations, view detailed country information, find points of interest (POIs), and generate routes between destinations.
 The project integrates powerful open APIs such as OpenRouteService (ORS), Mapbox, and REST Countries API to provide accurate and dynamic geographical data.
@@ -17,20 +17,19 @@ Developers exploring location-based applications
 
 Anyone who wants to explore the world interactively
 
-✨ Features
-🌐 Interactive World Map
+# Features Interactive World Map
 
 Zoom, drag, and navigate around the globe.
 
 Search for any location and highlight it on the map.
 
-🏙️ Location & Country Details
+# Location & Country Details
 
 Displays country name, capital, region, population, languages, currency, and more.
 
 Fetches real-time data using REST Countries API.
 
-📍 Points of Interest (POIs)
+# Points of Interest (POIs)
 
 Shows tourist attractions and important landmarks.
 
@@ -44,7 +43,7 @@ Category (museum, park, restaurant, etc.)
 
 Estimated visit duration
 
-🛣️ Route Generation
+# Route Generation
 
 Generates travel routes between two places using OpenRouteService.
 
@@ -56,7 +55,7 @@ Estimated travel time
 
 Visual route on the map
 
-🗺️ Modern UI
+# Modern UI
 
 Clean, responsive interface
 
@@ -64,14 +63,14 @@ Smooth animations and map controls
 
 Easy navigation and fast search
 
-🛠️ Tech Stack
+# Tech Stack
 Area	Technology
 Frontend	HTML, CSS, JavaScript / React (if used)
 Map Rendering	Mapbox GL / Leaflet
 APIs Used	OpenRouteService, Mapbox API, REST Countries
 Deployment	GitHub Pages / Netlify (optional)
-🚀 Getting Started
-✔️ Prerequisites
+# Getting Started
+# Prerequisites
 
 You need:
 
@@ -83,14 +82,14 @@ OpenRouteService
 
 Mapbox
 
-✔️ Installation
+# Installation
 # Clone the repository
 git clone https://github.com/Keerthanapriyamkannan/world-explorer
 
 # Go into the project folder
 cd world-explorer
 
-✔️ Run the Project
+* Run the Project
 
 If it's a simple HTML/JS app:
 
@@ -101,7 +100,7 @@ If it’s a React version:
 npm install
 npm start
 
-📌 Project Structure (example)
+# Project Structure (example)
 world-explorer/
 │── index.html
 │── style.css
@@ -110,8 +109,8 @@ world-explorer/
 │   └── icons, images
 └── README.md
 
-🔧 APIs Used
-🧭 OpenRouteService API
+# APIs Used
+# OpenRouteService API
 
 Route generation
 
@@ -119,19 +118,19 @@ Distance & time calculation
 
 POI search
 
-🗺️ Mapbox API
+# Mapbox API
 
 Interactive maps
 
 Geocoding (place search)
 
-🌍 REST Countries API
+# REST Countries API
 
 Country-level data
 
 Flags, population, capital, region
 
-🎯 Future Enhancements
+# Future Enhancements
 
 User login & saved favorite places
 
@@ -143,16 +142,11 @@ Detailed trip itinerary generator
 
 Multi-language interface
 
-📸 Screenshots (Add your images here)
-![Homepage Screenshot](assets/homepage.png)
-![POI Screenshot](assets/poi.png)
-![Route Screenshot](assets/route.png)
-
-👩‍💻 Author
+# Author
 
 Keerthana Priyam Kannan
 GitHub: github.com/Keerthanapriyamkannan
 
-📜 License
+# License
 
 This project is licensed under the MIT License — free to use and modify.
