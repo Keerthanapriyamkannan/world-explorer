@@ -1,22 +1,158 @@
-# World Explorer – AI-Based Interactive Trip Planning System
+🌍 World Explorer
 
-This project forces map tiles, geocoding, and routing to use English names/labels.
+An interactive web application that allows users to explore countries, cities, routes, and points of interest using real-time geospatial APIs.
 
-## Setup (short)
+📖 About the Project
 
-1. Backend
-   - cd backend
-   - npm install
-   - copy .env.example .env and set MAPTILER_KEY if you want the frontend to use MapTiler tiles
-   - npm start
+World Explorer is a map-based travel and geography exploration system. It helps users discover global locations, view detailed country information, find points of interest (POIs), and generate routes between destinations.
+The project integrates powerful open APIs such as OpenRouteService (ORS), Mapbox, and REST Countries API to provide accurate and dynamic geographical data.
 
-2. Frontend
-   - cd frontend
-   - npm install --legacy-peer-deps
-   - In your browser, before loading the app, set `window.MAPTILER_KEY = 'YOUR_MAPTILER_KEY'` in the console OR edit `src/components/MapView.jsx` to insert the key directly for development.
-   - npm run dev
+This system is designed for:
 
-Notes:
-- All Nominatim calls include `accept-language=en` to prefer English names.
-- Overpass results prefer `name:en` tag when available, otherwise fallback to `name`.
-- Map tiles use MapTiler when a key is provided; otherwise falls back to default OSM tiles.
+Travelers planning routes
+
+Students learning world geography
+
+Developers exploring location-based applications
+
+Anyone who wants to explore the world interactively
+
+✨ Features
+🌐 Interactive World Map
+
+Zoom, drag, and navigate around the globe.
+
+Search for any location and highlight it on the map.
+
+🏙️ Location & Country Details
+
+Displays country name, capital, region, population, languages, currency, and more.
+
+Fetches real-time data using REST Countries API.
+
+📍 Points of Interest (POIs)
+
+Shows tourist attractions and important landmarks.
+
+Each POI includes:
+
+Name
+
+Coordinates
+
+Category (museum, park, restaurant, etc.)
+
+Estimated visit duration
+
+🛣️ Route Generation
+
+Generates travel routes between two places using OpenRouteService.
+
+Displays:
+
+Distance
+
+Estimated travel time
+
+Visual route on the map
+
+🗺️ Modern UI
+
+Clean, responsive interface
+
+Smooth animations and map controls
+
+Easy navigation and fast search
+
+🛠️ Tech Stack
+Area	Technology
+Frontend	HTML, CSS, JavaScript / React (if used)
+Map Rendering	Mapbox GL / Leaflet
+APIs Used	OpenRouteService, Mapbox API, REST Countries
+Deployment	GitHub Pages / Netlify (optional)
+🚀 Getting Started
+✔️ Prerequisites
+
+You need:
+
+A web browser
+
+API Keys for:
+
+OpenRouteService
+
+Mapbox
+
+✔️ Installation
+# Clone the repository
+git clone https://github.com/Keerthanapriyamkannan/world-explorer
+
+# Go into the project folder
+cd world-explorer
+
+✔️ Run the Project
+
+If it's a simple HTML/JS app:
+
+Open index.html in your browser
+
+If it’s a React version:
+
+npm install
+npm start
+
+📌 Project Structure (example)
+world-explorer/
+│── index.html
+│── style.css
+│── script.js
+│── assets/
+│   └── icons, images
+└── README.md
+
+🔧 APIs Used
+🧭 OpenRouteService API
+
+Route generation
+
+Distance & time calculation
+
+POI search
+
+🗺️ Mapbox API
+
+Interactive maps
+
+Geocoding (place search)
+
+🌍 REST Countries API
+
+Country-level data
+
+Flags, population, capital, region
+
+🎯 Future Enhancements
+
+User login & saved favorite places
+
+Weather integration for each location
+
+AI-based travel recommendations
+
+Detailed trip itinerary generator
+
+Multi-language interface
+
+📸 Screenshots (Add your images here)
+![Homepage Screenshot](assets/homepage.png)
+![POI Screenshot](assets/poi.png)
+![Route Screenshot](assets/route.png)
+
+👩‍💻 Author
+
+Keerthana Priyam Kannan
+GitHub: github.com/Keerthanapriyamkannan
+
+📜 License
+
+This project is licensed under the MIT License — free to use and modify.
