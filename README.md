@@ -1,4 +1,4 @@
-# Trip Planner (MapTiler English Labels)
+# World Explorer – AI-Based Interactive Trip Planning System
 
 This project forces map tiles, geocoding, and routing to use English names/labels.
 
